@@ -1,0 +1,46 @@
+#main {
+    position: center;
+    border-color: black;
+    background-color: #111c2f;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    border-radius: 5px;
+    opacity: 0.8;
+    color: white;
+}
+
+.button {
+    margin: 4px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+#lists {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#start {
+    position: fixed;
+    left: 50px;
+    top: 600px;
+}
+
+#success {
+    position: fixed;
+    left: 150px;
+    top: 600px;
+}
+
+#stop {
+    position: fixed;
+    left: 300px;
+    top: 600px;
+}
